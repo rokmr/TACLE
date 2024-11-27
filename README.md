@@ -24,6 +24,11 @@ pip install quadprog
 pip install POT
 ```
 
+# Coming Soon
+
+We are actively working on releasing the complete codebase for TACLE. The code will be made publicly available here soon. In the meantime, if you have any questions, please feel free to open an issue or reach out to the authors.
+
+We appreciate your interest and patience as we prepare the code release. Stay tuned for updates!
 
 
 # Introduction

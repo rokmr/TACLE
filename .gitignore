@@ -56,7 +56,6 @@ results/
 output/
 data/
 datasets/
-models/
 saved_models/
 
 # Temporary files

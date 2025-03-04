@@ -8,7 +8,7 @@ from utils.toolkit import count_parameters
 import os
 import numpy as np
 
-def train(args): # main()in main.py calls this function
+def train(args): 
     seed_list = copy.deepcopy(args['seed'])
     device = copy.deepcopy(args['device'])
 
@@ -23,7 +23,7 @@ def train(args): # main()in main.py calls this function
     logging.info('final accs: {}'.format(res_finals))
     logging.info('avg accs: {}'.format(res_avgs))
 
-def _train(args): # train() calls this function
+def _train(args): 
     try:
         os.makedirs("logs/{}_{}".format(args['model_name'], args['model_postfix']))
     except:
@@ -65,7 +65,7 @@ def _train(args): # train() calls this function
     return (cnn_curve['top1'][-1], np.array(cnn_curve['top1']).mean())
 
 def _set_device(args):
-    device_type = args['device'] # ["0","1"]
+    device_type = args['device'] 
     gpus = []
     for device in device_type:
         if device_type == -1:
@@ -83,6 +83,6 @@ def _set_random():
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-def print_args(args): #_train() calls this function
+def print_args(args): 
     for key, value in args.items():
         logging.info('{}: {}'.format(key, value))

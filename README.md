@@ -1,6 +1,7 @@
 # TACLE
 [![Arxiv](https://img.shields.io/badge/arXiv-2407.08041-b31b1b)](https://arxiv.org/pdf/2407.08041)
 [![Project page](https://img.shields.io/badge/Web-Project%20Page-green)](https://rokmr.github.io/tacle)
+[![POSTER](https://img.shields.io/badge/wacv2025-poster-blue)]()
 
 Official Repository of the paper: [TACLE: Task and Class-aware Exemplar-free Semi-supervised Class Incremental Learning](https://arxiv.org/pdf/2407.08041)
 
